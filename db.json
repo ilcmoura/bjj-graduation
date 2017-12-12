@@ -1,0 +1,68 @@
+{
+  "athletes": [
+    {
+      "id": "1",
+      "name": "Clarice",
+      "birthday": "03/12/2013"
+    },
+    {
+      "id": "2",
+      "name": "Juliana",
+      "birthday": "09/03/1984"
+    },
+    {
+      "id": "4",
+      "name": "Wine",
+      "birthday": "15/10/2010"
+    },
+    {
+      "id": "5",
+      "name": "Odelia",
+      "birthday": "19/04/1948"
+    },
+    {
+      "id": "12",
+      "name": "afadfd",
+      "birthday": "afdd",
+      "graduation": "Option 1"
+    },
+    {
+      "id": "3",
+      "name": "Igor Moura",
+      "birthday": "kajdfkaj",
+      "graduation": ""
+    }
+  ],
+  "teams": [
+    {
+      "id": "2",
+      "name": "afadf",
+      "master": "adfad",
+      "teacher": "adafad"
+    },
+    {
+      "id": "TkNO_Ox",
+      "name": "",
+      "master": "",
+      "teacher": ""
+    },
+    {
+      "id": "c91CpDJ",
+      "name": "afadadfa",
+      "master": "adfa",
+      "teacher": "adfadfad"
+    },
+    {
+      "id": "Ds8w9RG",
+      "name": "",
+      "master": "",
+      "teacher": ""
+    },
+    {
+      "id": "acNGbt0",
+      "name": "adfadf",
+      "master": "adfad",
+      "teacher": "adfadfa"
+    }
+  ]
+}

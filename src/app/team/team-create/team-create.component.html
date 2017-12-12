@@ -1,0 +1,55 @@
+
+    <bjj-top title="Time" subtitle="Criar novo"></bjj-top>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <!-- Default box -->
+      <div class="box">
+        <div class="box-header with-border">
+          <h3 class="box-title">Title</h3>
+        </div>
+
+        <div class="box-body">
+
+          <form [formGroup]="teamForm" novalidate>
+
+            <div class="col-sm-6 col-xs-12" *ngIf="team !== undefined">
+              <bjj-input-container errorMessage="Campo Obrigatório e com 5 caracteres" label="Nome">
+                <input type="text" class="form-control" formControlName="id"  placeholder="Nome" autocomplete="false" value="{{team?.id}}" disabled>
+              </bjj-input-container>
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+              <bjj-input-container errorMessage="E-mail inválido" label="E-mail">
+                <input type="text" class="form-control" formControlName="name"   placeholder="E-mail" autocomplete="false" value="{{team?.name}}">
+              </bjj-input-container>
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+              <bjj-input-container errorMessage="E-mail inválido" label="E-mail">
+                <input type="text" class="form-control" formControlName="master"   placeholder="E-mail" autocomplete="false" value="{{team?.master}}">
+              </bjj-input-container>
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+              <bjj-input-container errorMessage="E-mail inválido" label="E-mail">
+                <input type="text" class="form-control" formControlName="teacher"   placeholder="E-mail" autocomplete="false" value="{{team?.teacher}}">
+              </bjj-input-container>
+            </div>
+
+          </form>
+
+        </div>
+        <!-- /.box-body -->
+
+        <div class="box-footer">
+          <button (click)="save(teamForm.value)" class="btn btn-success pull-right" ><i class="fa fa-plus"></i> Salvar
+          </button>
+        </div>
+        <!-- /.box-footer-->
+      </div>
+      <!-- /.box -->
+
+    </section>
+    <!-- /.content -->
